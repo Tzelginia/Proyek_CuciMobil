@@ -20,7 +20,7 @@ use App\Http\Controllers\PelangganController;
     // return view('dashboard.index');
 // });
 
-Route::get('/pelanggan', [PelangganController:: class, 'index']);
+Route::get('/', [PelangganController:: class, 'index']);
 
 Route::get('/login', [LoginController::class, 'index']);
 
