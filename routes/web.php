@@ -17,10 +17,10 @@ use App\Http\Controllers\PelangganController;
 */
 
 // Route::get('/', function () {
-    // return view('dashboard.index');
+// return view('dashboard.index');
 // });
 
-Route::get('/pelanggan', [PelangganController:: class, 'index']);
+Route::get('/', [PelangganController::class, 'index']);
 
 Route::get('/login', [LoginController::class, 'index']);
 
