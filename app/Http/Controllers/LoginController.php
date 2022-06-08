@@ -28,7 +28,7 @@ class LoginController extends Controller
                 Auth::logout();
                 return back()->with('loginError', 'Silahkan hubungi administrator untuk aktivasi akun anda agar bisa masuk');
             }
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/dashboard/pelanggan');
         }
 
         return back()->with('loginError', 'Gagal Login');
