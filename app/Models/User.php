@@ -23,6 +23,8 @@ class User extends Authenticatable
         'nohp',
         'alamat',
         'password',
+        'role',
+        'verify'
     ];
 
     /**
