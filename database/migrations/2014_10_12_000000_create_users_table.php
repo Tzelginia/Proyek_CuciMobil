@@ -20,6 +20,8 @@ class CreateUsersTable extends Migration
             $table->string('nohp');
             $table->string('alamat');
             $table->string('password');
+            $table->enum('role', ['admin', 'pembeli'])->default('pembeli');
+            $table->integer('verify')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });
