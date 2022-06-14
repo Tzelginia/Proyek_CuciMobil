@@ -13,6 +13,12 @@
         <span class="menu-title">Data Pelanggan</span>
       </a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/dashboard/pesanan">
+        <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+        <span class="menu-title">Data Pesanan</span>
+      </a>
+    </li>
     <!-- <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
